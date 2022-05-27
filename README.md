@@ -4,4 +4,4 @@
 
 Add packages with `poetry add PACKAGENAME`, and run `poetry install`.
 
-Run a file with `poetry run python FILE.PY` or activate a shell by `poetry shell`.
+To run the development server, activate a shell by `poetry shell`, and run `python app.py`.

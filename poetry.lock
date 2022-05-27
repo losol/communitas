@@ -80,6 +80,20 @@ diskcache = ["diskcache (>=5.2.1)", "multiprocess (>=0.70.12)", "psutil (>=5.8.0
 testing = ["beautifulsoup4 (>=4.8.2)", "lxml (>=4.6.2)", "percy (>=2.0.2)", "pytest (>=6.0.2)", "requests[security] (>=2.21.0)", "selenium (>=3.141.0)", "waitress (>=1.4.4)", "cryptography (<3.4)"]
 
 [[package]]
+name = "dash-bootstrap-components"
+version = "1.1.0"
+description = "Bootstrap themed components for use in Plotly Dash"
+category = "main"
+optional = false
+python-versions = ">=3.6, <4"
+
+[package.dependencies]
+dash = ">=2.0.0"
+
+[package.extras]
+pandas = ["numpy", "pandas"]
+
+[[package]]
 name = "dash-core-components"
 version = "2.0.0"
 description = "Core component suite for Dash"
@@ -94,6 +108,14 @@ description = "Vanilla HTML components for Dash"
 category = "main"
 optional = false
 python-versions = "*"
+
+[[package]]
+name = "dash-labs"
+version = "1.0.8"
+description = "Experimental enhancements for potential inclusion in Dash"
+category = "main"
+optional = false
+python-versions = ">=3.6.*"
 
 [[package]]
 name = "dash-table"
@@ -360,7 +382,7 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "54b4a24c2892226713135445c151c436f17f1a678fa5a029616a902cfd019932"
+content-hash = "2fb5a36f2c8d47205306fa9c6a803f1b35c532ac730abddb9be0893241b45e3e"
 
 [metadata.files]
 autopep8 = [
@@ -451,6 +473,10 @@ dash = [
     {file = "dash-2.4.1-py3-none-any.whl", hash = "sha256:44ad5593d69f8aba37e4dd8fa07b1e5dfc012aebd8cccf6e4f68591bca02d177"},
     {file = "dash-2.4.1.tar.gz", hash = "sha256:aef5fdbb2e948a378c1c8175d52a76c59cf998c62b25eaff616cd947310b04d3"},
 ]
+dash-bootstrap-components = [
+    {file = "dash-bootstrap-components-1.1.0.tar.gz", hash = "sha256:340755d3ca4d2e5b2745fc67398785e673092faef2097e2895f8580b1ad1816e"},
+    {file = "dash_bootstrap_components-1.1.0-py3-none-any.whl", hash = "sha256:e0490bf865c61f14371e537bdab4be08db693cec01884eb5a9c55489ebd13d47"},
+]
 dash-core-components = [
     {file = "dash_core_components-2.0.0-py3-none-any.whl", hash = "sha256:52b8e8cce13b18d0802ee3acbc5e888cb1248a04968f962d63d070400af2e346"},
     {file = "dash_core_components-2.0.0.tar.gz", hash = "sha256:c6733874af975e552f95a1398a16c2ee7df14ce43fa60bb3718a3c6e0b63ffee"},
@@ -458,6 +484,10 @@ dash-core-components = [
 dash-html-components = [
     {file = "dash_html_components-2.0.0-py3-none-any.whl", hash = "sha256:b42cc903713c9706af03b3f2548bda4be7307a7cf89b7d6eae3da872717d1b63"},
     {file = "dash_html_components-2.0.0.tar.gz", hash = "sha256:8703a601080f02619a6390998e0b3da4a5daabe97a1fd7a9cebc09d015f26e50"},
+]
+dash-labs = [
+    {file = "dash-labs-1.0.8.tar.gz", hash = "sha256:a25dbbb46ce9c498b27dc9bd86fa578573137c29f1b09d43d676fe87cca148e0"},
+    {file = "dash_labs-1.0.8-py3-none-any.whl", hash = "sha256:e019fdd41b22f3a6e22f9bd2fc23926ee85e20bbd54e74c4474ca7b6040d4176"},
 ]
 dash-table = [
     {file = "dash_table-5.0.0-py3-none-any.whl", hash = "sha256:19036fa352bb1c11baf38068ec62d172f0515f73ca3276c79dee49b95ddc16c9"},

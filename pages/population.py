@@ -1,5 +1,17 @@
+import dash
+from dash import dcc, html
+import dash_bootstrap_components as dbc
+import dash_labs as dl
+
 import requests
 from pyjstat import pyjstat
+
+
+dash.register_page(
+    __name__,
+    name="Befolkning",
+    top_nav=True,
+)
 
 api_uri = "https://data.ssb.no/api/v0/en/table/12882/"
 query = {
@@ -65,4 +77,21 @@ if(res.status_code != 200):
 ds = pyjstat.Dataset.read(res.text)
 df = ds.write('dataframe')
 
-print(df)
+
+def layout():
+    return html.Div([
+        dbc.Container([
+            dbc.Row([
+                dbc.Col(html.H1(children='Befolkningsprognoser'),
+                    className="mb-2")
+            ]),
+            dbc.Row([
+                dbc.Col(
+                    html.H6(children='Visualising trends across the world'), className="mb-4")
+            ]),
+
+            dbc.Row([
+                dbc.Col(dcc.Graph(id='population'), width=4)
+            ])
+        ])
+    ])
