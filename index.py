@@ -1,3 +1,4 @@
+from sqlite3 import Row
 from dash import dash, dcc, html
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
@@ -22,7 +23,9 @@ navbar = dbc.NavbarSimple(
 
 
 app.layout = dbc.Container(
-    [navbar, dl.plugins.page_container],
+    dbc.Row(
+        [navbar, dl.plugins.page_container]),
+    class_name="mb-6",
     fluid=True,
 )
 

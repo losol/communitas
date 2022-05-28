@@ -2,6 +2,8 @@ import dash
 from dash import dcc, html
 import dash_bootstrap_components as dbc
 import dash_labs as dl
+import plotly.express as px
+
 
 import requests
 from pyjstat import pyjstat
@@ -77,6 +79,15 @@ if(res.status_code != 200):
 ds = pyjstat.Dataset.read(res.text)
 df = ds.write('dataframe')
 
+print(df)
+
+year = 2025
+population_at_year = df[df["year"] == str(year)]
+
+print(population_at_year)
+
+pop_figure = px.bar(data_frame=population_at_year, x="age", y="value")
+
 
 def layout():
     return html.Div([
@@ -87,11 +98,13 @@ def layout():
             ]),
             dbc.Row([
                 dbc.Col(
-                    html.H6(children='Visualising trends across the world'), className="mb-4")
+                    html.Div(children='Visualising trends across the world'),
+                    className="lead")
             ]),
 
             dbc.Row([
-                dbc.Col(dcc.Graph(id='population'), width=4)
+                dbc.Col(
+                    dcc.Graph(figure=pop_figure, id='pop_figure'), width=8)
             ])
         ])
     ])

@@ -6,6 +6,3 @@ external_stylesheets = [dbc.themes.LUX]
 app = Dash(__name__,
            external_stylesheets=external_stylesheets,
            plugins=[dl.plugins.pages])
-
-if __name__ == '__main__':
-    app.run_server(debug=True)
