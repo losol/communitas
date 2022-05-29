@@ -1,13 +1,12 @@
 import dash
-from dash import dcc, html
 import dash_bootstrap_components as dbc
 import dash_labs as dl
+import numpy as np
 import plotly.express as px
-
-
+import plotly.graph_objs as go
 import requests
+from dash import dcc, html
 from pyjstat import pyjstat
-
 
 dash.register_page(
     __name__,
@@ -79,12 +78,9 @@ if(res.status_code != 200):
 ds = pyjstat.Dataset.read(res.text)
 df = ds.write('dataframe')
 
-print(df)
-
+# Filter by year
 year = 2025
 population_at_year = df[df["year"] == str(year)]
-
-print(population_at_year)
 
 pop_figure = px.bar(data_frame=population_at_year, x="age", y="value")
 
