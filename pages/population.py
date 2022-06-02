@@ -1,12 +1,15 @@
 import dash
+from dash import callback, Input, Output, State
 import dash_bootstrap_components as dbc
 import dash_labs as dl
 import numpy as np
-import plotly.express as px
 import plotly.graph_objs as go
-import requests
 from dash import dcc, html
-from pyjstat import pyjstat
+import pandas as pd
+import plotly
+from datetime import date
+
+from utilities import population
 
 dash.register_page(
     __name__,
@@ -14,93 +17,124 @@ dash.register_page(
     top_nav=True,
 )
 
-api_uri = "https://data.ssb.no/api/v0/en/table/12882/"
-query = {
-    "query": [
-        {
-            "code": "Region",
-            "selection": {
-                "filter": "vs:KommunFram2020Agg",
-                "values": ["1804"]
-            }
-        },
-        {
-            "code": "Kjonn",
-            "selection": {
-                "filter": "item",
-                "values": ["1", "2"]
-            }
-        },
-        {
-            "code": "Alder",
-            "selection": {
-                "filter": "agg:Funksjonell4",
-                "values": [
-                    "F311",
-                    "F312",
-                    "F313",
-                    "F314",
-                    "F315",
-                    "F316",
-                    "F317",
-                    "F318",
-                    "F319",
-                    "F320"
-                ]
-            }
-        },
-        {
-            "code": "ContentsCode",
-            "selection": {
-                "filter": "item",
-                "values": ["Personer"]
-            }
-        },
-        {
-            "code": "Tid",
-            "selection": {
-                "filter": "item",
-                "values": ["2022", "2025", "2030", "2035", "2040", "2050"]
-            }
-        }
-    ],
-    "response": {
-        "format": "json-stat2"
-    }
-}
 
+def population_table(df, year):
+    population_at_year = df[df["year"] == str(year)]
 
-res = requests.post(api_uri, json=query)
-if(res.status_code != 200):
-    print("Error: " + str(res.status_code))
-    exit(1)
+    # Pivot to get males and females on same row
+    population_table = pd.pivot_table(
+        population_at_year, index=['age'], columns=['sex'])
 
-ds = pyjstat.Dataset.read(res.text)
-df = ds.write('dataframe')
+    # Define order and labels
+    life_ages_list = ['0 years',
+                      '1-5 years',
+                      '6-12 years',
+                      '13-15 years',
+                      '16-19 years',
+                      '20-44 years',
+                      '45-66 years',
+                      '67-79 years',
+                      '80-89 years',
+                      '90 years or older']
 
-# Filter by year
-year = 2025
-population_at_year = df[df["year"] == str(year)]
+    population_table = population_table.reindex(life_ages_list)
 
-pop_figure = px.bar(data_frame=population_at_year, x="age", y="value")
+    # Flatten to make life easier
+    flat_population_table = population_table.droplevel(0, axis=1).reset_index()
+
+    return flat_population_table
 
 
 def layout():
     return html.Div([
         dbc.Container([
             dbc.Row([
-                dbc.Col(html.H1(children='Befolkningsprognoser'),
+                dbc.Col(html.H1(children='Befolkningsprognose'),
                     className="mb-2")
             ]),
             dbc.Row([
                 dbc.Col(
-                    html.Div(children='Visualising trends across the world'),
+                    html.Div(children='Prognoser på befolkningssammensetningen. Basert på SSBs tabell 12882: Framskrevet folkemengde 1. januar, etter kjønn og alder, i 9 alternativer (K) 2020 - 2050'),
                     className="lead")
             ]),
-
+            dbc.Row([
+                dcc.Dropdown(id='region_selector',
+                             options=[
+                                 {'label': 'Bodø', 'value': '1804'},
+                                 {'label': 'Oslo', 'value': '0301'},
+                                 {'label': 'Tromsø', 'value': '5401'}],
+                             value="1804")
+            ]),
+            dbc.Row([
+                dcc.Slider(id='year_selector',
+                           min=date.today().year,
+                           max=2050,
+                           value=date.today().year,
+                           step=1,
+                           marks={
+                               2022: '2022',
+                               2025: '2025',
+                               2030: '2030',
+                               2035: '2035',
+                               2040: '2040',
+                               2045: '2045',
+                               2050: '2050'
+                           },)
+            ]),
             dbc.Row([
                 dbc.Col(
-                    dcc.Graph(figure=pop_figure, id='pop_figure'), width=8)
+                    dcc.Graph(id='population_figure'), width=8)
             ])
         ])
     ])
+
+
+@callback(
+    Output(component_id='population_figure', component_property='figure'),
+    Input(component_id='region_selector', component_property='value'),
+    Input(component_id='year_selector', component_property='value')
+)
+def update_population_figure(selected_region_id, selected_year):
+    df = population.get_population_prognosis(selected_region_id)
+    population_at_year = population_table(df, selected_year)
+
+    y = population_at_year['age']
+    males = population_at_year['Males']
+    females = population_at_year['Females']
+
+    population_figure = go.Figure()
+
+    # Add Trace to Figure
+    population_figure.add_trace(go.Bar(
+        y=y,
+        x=males * -1,
+        name='Menn',
+        orientation='h',
+        marker_color='#336699'
+    ))
+
+    # Add Trace to figure
+    population_figure.add_trace(go.Bar(
+        y=y,
+        x=females,
+        name='Kvinner',
+        orientation='h',
+        marker_color='#336677'
+    ))
+
+    # Update Figure Layout
+    population_figure.update_layout(
+        template='plotly_white',
+        title=f'Befolkningspyramide',
+        title_font_size=24,
+        barmode='relative',
+        bargap=0.0,
+        bargroupgap=0,
+        xaxis=dict(
+            tickvals=[-10000, -5000, 0, 5000, 10000],
+            title=f'Befolkning fordelt på alder',
+            title_font_size=14
+        )
+    )
+
+    return population_figure
