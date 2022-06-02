@@ -125,14 +125,14 @@ def update_population_figure(selected_region_id, selected_year):
     # Update Figure Layout
     population_figure.update_layout(
         template='plotly_white',
-        title=f'Befolkningspyramide',
+        title='Befolkningspyramide',
         title_font_size=24,
         barmode='relative',
         bargap=0.0,
         bargroupgap=0,
         xaxis=dict(
             tickvals=[-10000, -5000, 0, 5000, 10000],
-            title=f'Befolkning fordelt på alder',
+            title='Befolkning fordelt på alder',
             title_font_size=14
         )
     )
