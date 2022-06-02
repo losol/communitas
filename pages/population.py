@@ -25,23 +25,12 @@ def population_table(df, year):
     population_table = pd.pivot_table(
         population_at_year, index=['age'], columns=['sex'])
 
-    # Define order and labels
-    life_ages_list = ['0 years',
-                      '1-5 years',
-                      '6-12 years',
-                      '13-15 years',
-                      '16-19 years',
-                      '20-44 years',
-                      '45-66 years',
-                      '67-79 years',
-                      '80-89 years',
-                      '90 years or older']
-
-    population_table = population_table.reindex(life_ages_list)
+    population_table = population_table.reindex(population.groups_5year)
 
     # Flatten to make life easier
     flat_population_table = population_table.droplevel(0, axis=1).reset_index()
 
+    print(flat_population_table)
     return flat_population_table
 
 
@@ -95,7 +84,8 @@ def layout():
     Input(component_id='year_selector', component_property='value')
 )
 def update_population_figure(selected_region_id, selected_year):
-    df = population.get_population_prognosis(selected_region_id)
+    df = population.get_population_prognosis(
+        selected_region_id, population.selection_5years)
     population_at_year = population_table(df, selected_year)
 
     y = population_at_year['age']
@@ -124,16 +114,18 @@ def update_population_figure(selected_region_id, selected_year):
 
     # Update Figure Layout
     population_figure.update_layout(
-        template='plotly_white',
         title='Befolkningspyramide',
         title_font_size=24,
         barmode='relative',
-        bargap=0.0,
+        bargap=0.1,
         bargroupgap=0,
         xaxis=dict(
             tickvals=[-10000, -5000, 0, 5000, 10000],
             title='Befolkning fordelt på alder',
             title_font_size=14
+        ),
+        yaxis=dict(
+            tickvals=population.groups_5year
         )
     )
 
