@@ -9,7 +9,7 @@ import pandas as pd
 import plotly
 from datetime import date
 
-from utilities import population
+from utilities import municipalities, population
 
 dash.register_page(
     __name__,
@@ -48,10 +48,7 @@ def layout():
             ]),
             dbc.Row([
                 dcc.Dropdown(id='region_selector',
-                             options=[
-                                 {'label': 'Bodø', 'value': '1804'},
-                                 {'label': 'Oslo', 'value': '0301'},
-                                 {'label': 'Tromsø', 'value': '5401'}],
+                             options=municipalities.options_list(),
                              value="1804")
             ]),
             dbc.Row([
