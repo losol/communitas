@@ -1,15 +1,18 @@
 import dash
 import dash_labs as dl
-# import dash_bootstrap_components as dbc
+import dash_bootstrap_components as dbc
 from dash import html
 
 dash.register_page(
     __name__,
     name="Hjem",
-    top_nav=True,
+    top_nav=False,
     path="/"
 )
 
 
 def layout():
-    return html.Div("Aasdf")
+    return dbc.Container(children=[
+        html.H1("Helsepanel", className="pt-5"),
+        html.Div("Under bygging...")
+    ])
