@@ -1,5 +1,5 @@
 import dash
-from dash import callback, Input, Output, State
+from dash import callback, Input, Output, State, dash_table
 import dash_bootstrap_components as dbc
 import dash_labs as dl
 import numpy as np
@@ -18,14 +18,14 @@ dash.register_page(
 )
 
 
-def population_table(df, year):
+def population_table(df, year, grouping=population.groups_5year):
     population_at_year = df[df["year"] == str(year)]
 
     # Pivot to get males and females on same row
     population_table = pd.pivot_table(
         population_at_year, index=['age'], columns=['sex'])
 
-    population_table = population_table.reindex(population.groups_5year)
+    population_table = population_table.reindex(grouping)
 
     # Flatten to make life easier
     flat_population_table = population_table.droplevel(0, axis=1).reset_index()
@@ -70,6 +70,9 @@ def layout():
             dbc.Row([
                 dbc.Col(
                     dcc.Graph(id='population_figure'), width=8)
+            ]),
+            dbc.Row([
+                dash_table.DataTable(id="population_table")
             ])
         ])
     ])
@@ -127,3 +130,16 @@ def update_population_figure(selected_region_id, selected_year):
     )
 
     return population_figure
+
+
+@callback(
+    Output(component_id='population_table', component_property='data'),
+    Input(component_id='region_selector', component_property='value'),
+    Input(component_id='year_selector', component_property='value')
+)
+def update_population_table(selected_region_id, selected_year):
+    df = population.get_population_prognosis(
+        selected_region_id, population.selection_lifestages)
+    population_at_year = population_table(
+        df, selected_year, grouping=population.groups_lifestages)
+    return population_at_year.to_dict('records')
