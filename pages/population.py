@@ -30,7 +30,6 @@ def population_table(df, year, grouping=population.groups_5year):
     # Flatten to make life easier
     flat_population_table = population_table.droplevel(0, axis=1).reset_index()
 
-    print(flat_population_table)
     return flat_population_table
 
 
