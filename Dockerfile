@@ -29,13 +29,6 @@ WORKDIR /app
 COPY --from=build /app/requirements.txt . 
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Creates a non-root user with an explicit UID and adds permission to access the /app folder
-# For more info, please refer to https://aka.ms/vscode-docker-python-configure-containers
-RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
-USER appuser
-
-# ENV PATH="/home/appuser/.local/bin:$PATH"
-
 COPY . .
 
 # Run server
