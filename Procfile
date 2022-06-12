@@ -1,1 +1,1 @@
-web: gunicorn index:server
+web: gunicorn index:server 0.0.0.0:$PORT
