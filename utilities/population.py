@@ -113,7 +113,7 @@ def get_population_prognosis(region_id, selection):
                 "code": "Tid",
                 "selection": {
                     "filter": "item",
-                    "values": list(range(2022, 2051))
+                    "values": list(range(2020, 2051))
                 }
             }
         ],
