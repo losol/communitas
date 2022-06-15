@@ -30,6 +30,7 @@ ENV PATH="/home/appuser/.local/bin:$PATH"
 
 # Copy requirements from build stage, and install them
 COPY --from=build /app/requirements.txt . 
+RUN pip install --upgrade pip
 RUN pip install --user --no-cache-dir -r requirements.txt
 
 COPY . .
