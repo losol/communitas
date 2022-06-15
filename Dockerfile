@@ -23,17 +23,16 @@ ENV PYTHONPATH=/app
 
 WORKDIR /app
 
-# Create a non-root user to run the web server
-RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
-USER appuser
-ENV PATH="/home/appuser/.local/bin:$PATH"
-
 # Copy requirements from build stage, and install them
 COPY --from=build /app/requirements.txt . 
 RUN pip install --upgrade pip
-RUN pip install --user --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
+
+# Create a non-root user to run the web server
+RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
+USER appuser
 
 # Run server
 EXPOSE ${PORT:-8000}
