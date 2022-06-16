@@ -30,7 +30,6 @@ def population_table(df, year, grouping=population.groups_5year):
     # Flatten to make life easier
     flat_population_table = population_table.droplevel(0, axis=1).reset_index()
 
-    print(flat_population_table)
     return flat_population_table
 
 
@@ -53,11 +52,12 @@ def layout():
             ]),
             dbc.Row([
                 dcc.Slider(id='year_selector',
-                           min=date.today().year,
+                           min=2020,
                            max=2050,
                            value=date.today().year,
                            step=1,
                            marks={
+                               2020: '2020',
                                2022: '2022',
                                2025: '2025',
                                2030: '2030',

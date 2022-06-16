@@ -3,6 +3,10 @@ import dash_bootstrap_components as dbc
 import dash_labs as dl
 
 from app import app
+from whitenoise import WhiteNoise
+
+server = app.server
+server.wsgi_app = WhiteNoise(server.wsgi_app, root='assets/')
 
 navbar = dbc.NavbarSimple(
     dbc.Nav(
@@ -13,6 +17,7 @@ navbar = dbc.NavbarSimple(
         ],
     ),
     brand="Helsepanel",
+    brand_href="/",
     color="primary",
     dark=True,
     className="mb-2",
