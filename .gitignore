@@ -1,3 +1,5 @@
+.DS_Store
+
 # VS code
 .vscode/
 
@@ -130,3 +132,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
