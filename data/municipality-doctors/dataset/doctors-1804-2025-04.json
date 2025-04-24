@@ -1,0 +1,1913 @@
+{
+  "municipalityId": "1804",
+  "count": 61,
+  "lastUpdated": "2025-04-24T19:45:49.400Z",
+  "data": [
+    {
+      "id": "100001040",
+      "totalSlots": 1000,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 27,
+      "doctor": {
+        "label": "Mann (43)",
+        "authorizedYear": 2014,
+        "isSami": false,
+        "age": 43,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1818,
+        "name": "Alstad Legesenter",
+        "address": "Trålveien 56",
+        "postalCode": "8013",
+        "city": "BODØ",
+        "phone": "75 53 06 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2018-06-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9036",
+      "totalSlots": 1050,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 133,
+      "doctor": {
+        "label": "Kvinne (50)",
+        "authorizedYear": 2009,
+        "isSami": false,
+        "age": 50,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1822,
+        "name": "Sentrumslegene Bodø",
+        "address": "Sjøgata 6, 2.etasje",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 50 45 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2012-10-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9043",
+      "totalSlots": 570,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 50,
+      "doctor": {
+        "label": "Kvinne (44)",
+        "authorizedYear": 2010,
+        "isSami": false,
+        "age": 44,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1820,
+        "name": "Havna Legesenter",
+        "address": "Moloveien 20",
+        "postalCode": "8003",
+        "city": "BODØ",
+        "phone": "75 55 40 00",
+        "url": "http://havna.bodo.kommune.no/",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2012-02-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9040",
+      "totalSlots": 1000,
+      "openSlots": 0,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (50)",
+        "authorizedYear": 2010,
+        "isSami": false,
+        "age": 50,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 100000092,
+        "name": "Bodin Legekontor",
+        "address": "Østensenveien 9",
+        "postalCode": "8009",
+        "city": "Bodø",
+        "phone": "75 50 70 40",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2011-07-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9038",
+      "totalSlots": 1000,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 147,
+      "doctor": {
+        "label": "Kvinne (45)",
+        "authorizedYear": 2008,
+        "isSami": false,
+        "age": 45,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1822,
+        "name": "Sentrumslegene Bodø",
+        "address": "Sjøgata 6, 2.etasje",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 50 45 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2011-05-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100003215",
+      "totalSlots": 710,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 28,
+      "doctor": {
+        "label": "Kvinne (31)",
+        "authorizedYear": 2018,
+        "isSami": false,
+        "age": 31,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1824,
+        "name": "Tverlandet Legesenter",
+        "address": "Mølnbakken 86",
+        "postalCode": "8050",
+        "city": "Bodø",
+        "phone": "75 50 71 31",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2022-01-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100005398",
+      "totalSlots": 800,
+      "openSlots": 14,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (37)",
+        "authorizedYear": 2017,
+        "isSami": false,
+        "age": 37,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1818,
+        "name": "Alstad Legesenter",
+        "address": "Trålveien 56",
+        "postalCode": "8013",
+        "city": "BODØ",
+        "phone": "75 53 06 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2024-04-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "9017",
+      "totalSlots": 950,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 67,
+      "doctor": {
+        "label": "Kvinne (52)",
+        "authorizedYear": 2004,
+        "isSami": false,
+        "age": 52,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 100000092,
+        "name": "Bodin Legekontor",
+        "address": "Østensenveien 9",
+        "postalCode": "8009",
+        "city": "Bodø",
+        "phone": "75 50 70 40",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2011-04-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [
+        {
+          "label": "Kvinne (44)",
+          "fromDate": "2015-10-01T00:00:00",
+          "toDate": "2025-12-31T00:00:00",
+          "percentage": 50,
+          "age": 44,
+          "gender": "female"
+        }
+      ],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9015",
+      "totalSlots": 1000,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 10,
+      "doctor": {
+        "label": "Kvinne (58)",
+        "authorizedYear": 2001,
+        "isSami": false,
+        "age": 58,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1815,
+        "name": "Rønvik Legesenter",
+        "address": "Fjellveien 1",
+        "postalCode": "8011",
+        "city": "BODØ",
+        "phone": "75 55 61 10",
+        "url": "http://ronviklegesenter.no",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2011-10-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100004987",
+      "totalSlots": 665,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 10,
+      "doctor": {
+        "label": "Kvinne (30)",
+        "authorizedYear": 2020,
+        "isSami": false,
+        "age": 30,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1828,
+        "name": "Fredensborgklinikken",
+        "address": "Moloveien 20",
+        "postalCode": "8003",
+        "city": "BODØ",
+        "phone": "75 54 99 49",
+        "url": null,
+        "wheelchairAccessible": false,
+        "groupPractice": true
+      },
+      "agreementSince": "2023-11-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9047",
+      "totalSlots": 1300,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 111,
+      "doctor": {
+        "label": "Mann (41)",
+        "authorizedYear": 2013,
+        "isSami": false,
+        "age": 41,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1816,
+        "name": "Mørkved Legesenter",
+        "address": "Mørkvedsenteret 17",
+        "postalCode": "8028",
+        "city": "",
+        "phone": "75 51 55 00",
+        "url": "https://www.morkvedlegesenter.no",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2013-12-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "8995",
+      "totalSlots": 1000,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 37,
+      "doctor": {
+        "label": "Mann (66)",
+        "authorizedYear": 1986,
+        "isSami": false,
+        "age": 66,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 100000092,
+        "name": "Bodin Legekontor",
+        "address": "Østensenveien 9",
+        "postalCode": "8009",
+        "city": "Bodø",
+        "phone": "75 50 70 40",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2001-05-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [
+        {
+          "label": "Mann (38)",
+          "fromDate": "2025-03-01T00:00:00",
+          "toDate": "2026-02-28T00:00:00",
+          "percentage": 40,
+          "age": 38,
+          "gender": "male"
+        }
+      ],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9046",
+      "totalSlots": 900,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 88,
+      "doctor": {
+        "label": "Kvinne (48)",
+        "authorizedYear": 2009,
+        "isSami": false,
+        "age": 48,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 100000126,
+        "name": "Innstranda Legesenter AS",
+        "address": "Mørkvedsentret 17",
+        "postalCode": "8028",
+        "city": "BODØ",
+        "phone": "75 55 02 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2012-03-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100001871",
+      "totalSlots": 1250,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 8,
+      "doctor": {
+        "label": "Mann (44)",
+        "authorizedYear": 2010,
+        "isSami": false,
+        "age": 44,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1829,
+        "name": "Leger i Nord",
+        "address": "City Nord, Stormyra 20",
+        "postalCode": "8008",
+        "city": "BODØ",
+        "phone": "75 55 06 00",
+        "url": "http://helsenorge.no",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2019-10-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100003570",
+      "totalSlots": 920,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 1,
+      "doctor": {
+        "label": "Mann (39)",
+        "authorizedYear": 2013,
+        "isSami": false,
+        "age": 39,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1822,
+        "name": "Sentrumslegene Bodø",
+        "address": "Sjøgata 6, 2.etasje",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 50 45 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2022-06-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "8999",
+      "totalSlots": 1100,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 105,
+      "doctor": {
+        "label": "Mann (61)",
+        "authorizedYear": 1993,
+        "isSami": false,
+        "age": 61,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1822,
+        "name": "Sentrumslegene Bodø",
+        "address": "Sjøgata 6, 2.etasje",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 50 45 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2001-05-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9023",
+      "totalSlots": 1000,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 2,
+      "doctor": {
+        "label": "Mann (48)",
+        "authorizedYear": 2004,
+        "isSami": false,
+        "age": 48,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1829,
+        "name": "Leger i Nord",
+        "address": "City Nord, Stormyra 20",
+        "postalCode": "8008",
+        "city": "BODØ",
+        "phone": "75 55 06 00",
+        "url": "http://helsenorge.no",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2006-05-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100002418",
+      "totalSlots": 950,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 88,
+      "doctor": {
+        "label": "Kvinne (40)",
+        "authorizedYear": 2014,
+        "isSami": false,
+        "age": 40,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1818,
+        "name": "Alstad Legesenter",
+        "address": "Trålveien 56",
+        "postalCode": "8013",
+        "city": "BODØ",
+        "phone": "75 53 06 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2020-10-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9020",
+      "totalSlots": 1200,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 61,
+      "doctor": {
+        "label": "Mann (49)",
+        "authorizedYear": 2004,
+        "isSami": false,
+        "age": 49,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 100000092,
+        "name": "Bodin Legekontor",
+        "address": "Østensenveien 9",
+        "postalCode": "8009",
+        "city": "Bodø",
+        "phone": "75 50 70 40",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2006-02-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [
+        {
+          "label": "Kvinne (33)",
+          "fromDate": "2022-11-01T00:00:00",
+          "toDate": "2025-12-31T00:00:00",
+          "percentage": 50,
+          "age": 33,
+          "gender": "female"
+        }
+      ],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9002",
+      "totalSlots": 1817,
+      "openSlots": 15,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (65)",
+        "authorizedYear": 1990,
+        "isSami": false,
+        "age": 65,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1827,
+        "name": "Dr. Odinakas Clinic",
+        "address": "Torvgata 8B",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 52 26 90",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2001-05-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "9028",
+      "totalSlots": 1190,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 43,
+      "doctor": {
+        "label": "Mann (46)",
+        "authorizedYear": 2007,
+        "isSami": false,
+        "age": 46,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1816,
+        "name": "Mørkved Legesenter",
+        "address": "Mørkvedsenteret 17",
+        "postalCode": "8028",
+        "city": "",
+        "phone": "75 51 55 00",
+        "url": "https://www.morkvedlegesenter.no",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2011-09-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100002023",
+      "totalSlots": 600,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 5,
+      "doctor": {
+        "label": "Kvinne (38)",
+        "authorizedYear": 2013,
+        "isSami": false,
+        "age": 38,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1820,
+        "name": "Havna Legesenter",
+        "address": "Moloveien 20",
+        "postalCode": "8003",
+        "city": "BODØ",
+        "phone": "75 55 40 00",
+        "url": "http://havna.bodo.kommune.no/",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2020-02-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9048",
+      "totalSlots": 1150,
+      "openSlots": 22,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (48)",
+        "authorizedYear": 2014,
+        "isSami": false,
+        "age": 48,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 100000126,
+        "name": "Innstranda Legesenter AS",
+        "address": "Mørkvedsentret 17",
+        "postalCode": "8028",
+        "city": "BODØ",
+        "phone": "75 55 02 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2014-04-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "9025",
+      "totalSlots": 1200,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (53)",
+        "authorizedYear": 2001,
+        "isSami": false,
+        "age": 53,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1829,
+        "name": "Leger i Nord",
+        "address": "City Nord, Stormyra 20",
+        "postalCode": "8008",
+        "city": "BODØ",
+        "phone": "75 55 06 00",
+        "url": "http://helsenorge.no",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2011-05-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100000931",
+      "totalSlots": 650,
+      "openSlots": 7,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Kvinne (49)",
+        "authorizedYear": 2007,
+        "isSami": false,
+        "age": 49,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1820,
+        "name": "Havna Legesenter",
+        "address": "Moloveien 20",
+        "postalCode": "8003",
+        "city": "BODØ",
+        "phone": "75 55 40 00",
+        "url": "http://havna.bodo.kommune.no/",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2018-03-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "9024",
+      "totalSlots": 1100,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 33,
+      "doctor": {
+        "label": "Mann (48)",
+        "authorizedYear": 2006,
+        "isSami": false,
+        "age": 48,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1822,
+        "name": "Sentrumslegene Bodø",
+        "address": "Sjøgata 6, 2.etasje",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 50 45 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2006-12-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "8984",
+      "totalSlots": 1000,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 18,
+      "doctor": {
+        "label": "Mann (70)",
+        "authorizedYear": 1986,
+        "isSami": false,
+        "age": 70,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1816,
+        "name": "Mørkved Legesenter",
+        "address": "Mørkvedsenteret 17",
+        "postalCode": "8028",
+        "city": "",
+        "phone": "75 51 55 00",
+        "url": "https://www.morkvedlegesenter.no",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2001-05-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9049",
+      "totalSlots": 520,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 39,
+      "doctor": {
+        "label": "Mann (44)",
+        "authorizedYear": 2012,
+        "isSami": false,
+        "age": 44,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 100000253,
+        "name": "Solparken Legesenter",
+        "address": "Havnegata 9",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 55 54 10",
+        "url": "https://bodo.kommune.no/solparken-legesenter/",
+        "wheelchairAccessible": false,
+        "groupPractice": false
+      },
+      "agreementSince": "2014-08-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9012",
+      "totalSlots": 1300,
+      "openSlots": 4,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (61)",
+        "authorizedYear": 2018,
+        "isSami": false,
+        "age": 61,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1827,
+        "name": "Dr. Odinakas Clinic",
+        "address": "Torvgata 8B",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 52 26 90",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2013-09-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "100004886",
+      "totalSlots": 950,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 3,
+      "doctor": {
+        "label": "Mann (42)",
+        "authorizedYear": 2014,
+        "isSami": false,
+        "age": 42,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1815,
+        "name": "Rønvik Legesenter",
+        "address": "Fjellveien 1",
+        "postalCode": "8011",
+        "city": "BODØ",
+        "phone": "75 55 61 10",
+        "url": "http://ronviklegesenter.no",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2023-10-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100005134",
+      "totalSlots": 600,
+      "openSlots": 20,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (38)",
+        "authorizedYear": 2019,
+        "isSami": false,
+        "age": 38,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1901,
+        "name": "Kommunelegen i Beiarn",
+        "address": "Furumoen Helsesenter",
+        "postalCode": "8100",
+        "city": "MISVÆR",
+        "phone": "75 56 91 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2024-01-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [
+        {
+          "label": "Kvinne (52)",
+          "fromDate": "2025-04-23T00:00:00",
+          "toDate": "2025-05-04T00:00:00",
+          "percentage": 100,
+          "age": 52,
+          "gender": "female"
+        }
+      ],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "9042",
+      "totalSlots": 800,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 59,
+      "doctor": {
+        "label": "Kvinne (44)",
+        "authorizedYear": 2010,
+        "isSami": false,
+        "age": 44,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 100000126,
+        "name": "Innstranda Legesenter AS",
+        "address": "Mørkvedsentret 17",
+        "postalCode": "8028",
+        "city": "BODØ",
+        "phone": "75 55 02 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2013-06-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100003096",
+      "totalSlots": 700,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 37,
+      "doctor": {
+        "label": "Kvinne (39)",
+        "authorizedYear": 2014,
+        "isSami": false,
+        "age": 39,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1815,
+        "name": "Rønvik Legesenter",
+        "address": "Fjellveien 1",
+        "postalCode": "8011",
+        "city": "BODØ",
+        "phone": "75 55 61 10",
+        "url": "http://ronviklegesenter.no",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2021-10-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "8980",
+      "totalSlots": 650,
+      "openSlots": 0,
+      "waitingListEnabled": false,
+      "waitingListSize": 62,
+      "doctor": {
+        "label": "Mann (55)",
+        "authorizedYear": 1998,
+        "isSami": false,
+        "age": 55,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1815,
+        "name": "Rønvik Legesenter",
+        "address": "Fjellveien 1",
+        "postalCode": "8011",
+        "city": "BODØ",
+        "phone": "75 55 61 10",
+        "url": "http://ronviklegesenter.no",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2001-05-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100004838",
+      "totalSlots": 600,
+      "openSlots": 33,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Kvinne (36)",
+        "authorizedYear": 2017,
+        "isSami": false,
+        "age": 36,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1828,
+        "name": "Fredensborgklinikken",
+        "address": "Moloveien 20",
+        "postalCode": "8003",
+        "city": "BODØ",
+        "phone": "75 54 99 49",
+        "url": null,
+        "wheelchairAccessible": false,
+        "groupPractice": true
+      },
+      "agreementSince": "2023-09-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "100005825",
+      "totalSlots": 1000,
+      "openSlots": 97,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (43)",
+        "authorizedYear": 2010,
+        "isSami": false,
+        "age": 43,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1816,
+        "name": "Mørkved Legesenter",
+        "address": "Mørkvedsenteret 17",
+        "postalCode": "8028",
+        "city": "",
+        "phone": "75 51 55 00",
+        "url": "https://www.morkvedlegesenter.no",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2024-09-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "100003212",
+      "totalSlots": 840,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 64,
+      "doctor": {
+        "label": "Kvinne (38)",
+        "authorizedYear": 2013,
+        "isSami": false,
+        "age": 38,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 100000126,
+        "name": "Innstranda Legesenter AS",
+        "address": "Mørkvedsentret 17",
+        "postalCode": "8028",
+        "city": "BODØ",
+        "phone": "75 55 02 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2022-01-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9037",
+      "totalSlots": 750,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 111,
+      "doctor": {
+        "label": "Kvinne (51)",
+        "authorizedYear": 2009,
+        "isSami": false,
+        "age": 51,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 100000126,
+        "name": "Innstranda Legesenter AS",
+        "address": "Mørkvedsentret 17",
+        "postalCode": "8028",
+        "city": "BODØ",
+        "phone": "75 55 02 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2010-01-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9033",
+      "totalSlots": 1400,
+      "openSlots": 10,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (45)",
+        "authorizedYear": 2009,
+        "isSami": false,
+        "age": 45,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 100000126,
+        "name": "Innstranda Legesenter AS",
+        "address": "Mørkvedsentret 17",
+        "postalCode": "8028",
+        "city": "BODØ",
+        "phone": "75 55 02 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2013-02-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "100002930",
+      "totalSlots": 1300,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 4,
+      "doctor": {
+        "label": "Mann (65)",
+        "authorizedYear": 1990,
+        "isSami": false,
+        "age": 65,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1822,
+        "name": "Sentrumslegene Bodø",
+        "address": "Sjøgata 6, 2.etasje",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 50 45 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2021-08-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100005451",
+      "totalSlots": 700,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 3,
+      "doctor": {
+        "label": "Mann (38)",
+        "authorizedYear": 2012,
+        "isSami": false,
+        "age": 38,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 100000253,
+        "name": "Solparken Legesenter",
+        "address": "Havnegata 9",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 55 54 10",
+        "url": "https://bodo.kommune.no/solparken-legesenter/",
+        "wheelchairAccessible": false,
+        "groupPractice": false
+      },
+      "agreementSince": "2024-05-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100006226",
+      "totalSlots": 930,
+      "openSlots": 18,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (35)",
+        "authorizedYear": 2023,
+        "isSami": false,
+        "age": 35,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 100000092,
+        "name": "Bodin Legekontor",
+        "address": "Østensenveien 9",
+        "postalCode": "8009",
+        "city": "Bodø",
+        "phone": "75 50 70 40",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2025-03-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "100001088",
+      "totalSlots": 1100,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 16,
+      "doctor": {
+        "label": "Kvinne (40)",
+        "authorizedYear": 2013,
+        "isSami": false,
+        "age": 40,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1822,
+        "name": "Sentrumslegene Bodø",
+        "address": "Sjøgata 6, 2.etasje",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 50 45 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2018-08-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9035",
+      "totalSlots": 1000,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 3,
+      "doctor": {
+        "label": "Mann (51)",
+        "authorizedYear": 2009,
+        "isSami": false,
+        "age": 51,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1824,
+        "name": "Tverlandet Legesenter",
+        "address": "Mølnbakken 86",
+        "postalCode": "8050",
+        "city": "Bodø",
+        "phone": "75 50 71 31",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2009-09-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "8994",
+      "totalSlots": 900,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 45,
+      "doctor": {
+        "label": "Mann (65)",
+        "authorizedYear": 1987,
+        "isSami": false,
+        "age": 65,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1824,
+        "name": "Tverlandet Legesenter",
+        "address": "Mølnbakken 86",
+        "postalCode": "8050",
+        "city": "Bodø",
+        "phone": "75 50 71 31",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2001-05-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9027",
+      "totalSlots": 850,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 162,
+      "doctor": {
+        "label": "Kvinne (46)",
+        "authorizedYear": 2006,
+        "isSami": false,
+        "age": 46,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1822,
+        "name": "Sentrumslegene Bodø",
+        "address": "Sjøgata 6, 2.etasje",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 50 45 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2014-09-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100005553",
+      "totalSlots": 700,
+      "openSlots": 19,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (37)",
+        "authorizedYear": 2015,
+        "isSami": false,
+        "age": 37,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 100000253,
+        "name": "Solparken Legesenter",
+        "address": "Havnegata 9",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 55 54 10",
+        "url": "https://bodo.kommune.no/solparken-legesenter/",
+        "wheelchairAccessible": false,
+        "groupPractice": false
+      },
+      "agreementSince": "2024-06-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [
+        {
+          "label": "Mann (35)",
+          "fromDate": "2025-04-01T00:00:00",
+          "toDate": "2025-08-10T00:00:00",
+          "percentage": 60,
+          "age": 35,
+          "gender": "male"
+        },
+        {
+          "label": "Kvinne (44)",
+          "fromDate": "2025-04-02T00:00:00",
+          "toDate": "2025-04-30T00:00:00",
+          "percentage": 20,
+          "age": 44,
+          "gender": "female"
+        },
+        {
+          "label": "Mann (39)",
+          "fromDate": "2025-04-07T00:00:00",
+          "toDate": "2025-08-31T00:00:00",
+          "percentage": 20,
+          "age": 39,
+          "gender": "male"
+        }
+      ],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "9045",
+      "totalSlots": 950,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 170,
+      "doctor": {
+        "label": "Kvinne (49)",
+        "authorizedYear": 2012,
+        "isSami": false,
+        "age": 49,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1818,
+        "name": "Alstad Legesenter",
+        "address": "Trålveien 56",
+        "postalCode": "8013",
+        "city": "BODØ",
+        "phone": "75 53 06 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2016-02-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "9034",
+      "totalSlots": 850,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 44,
+      "doctor": {
+        "label": "Kvinne (59)",
+        "authorizedYear": 2003,
+        "isSami": false,
+        "age": 59,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1820,
+        "name": "Havna Legesenter",
+        "address": "Moloveien 20",
+        "postalCode": "8003",
+        "city": "BODØ",
+        "phone": "75 55 40 00",
+        "url": "http://havna.bodo.kommune.no/",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2008-12-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100004119",
+      "totalSlots": 670,
+      "openSlots": 16,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (31)",
+        "authorizedYear": 2020,
+        "isSami": false,
+        "age": 31,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1824,
+        "name": "Tverlandet Legesenter",
+        "address": "Mølnbakken 86",
+        "postalCode": "8050",
+        "city": "Bodø",
+        "phone": "75 50 71 31",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2022-12-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "9004",
+      "totalSlots": 2150,
+      "openSlots": 0,
+      "waitingListEnabled": false,
+      "waitingListSize": 1,
+      "doctor": {
+        "label": "Mann (64)",
+        "authorizedYear": 1989,
+        "isSami": false,
+        "age": 64,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1828,
+        "name": "Fredensborgklinikken",
+        "address": "Moloveien 20",
+        "postalCode": "8003",
+        "city": "BODØ",
+        "phone": "75 54 99 49",
+        "url": null,
+        "wheelchairAccessible": false,
+        "groupPractice": true
+      },
+      "agreementSince": "2001-05-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100003607",
+      "totalSlots": 1000,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 26,
+      "doctor": {
+        "label": "Mann (42)",
+        "authorizedYear": 2015,
+        "isSami": false,
+        "age": 42,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1818,
+        "name": "Alstad Legesenter",
+        "address": "Trålveien 56",
+        "postalCode": "8013",
+        "city": "BODØ",
+        "phone": "75 53 06 00",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2022-07-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100005523",
+      "totalSlots": 100,
+      "openSlots": 42,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": null,
+      "clinic": {
+        "id": 1828,
+        "name": "Fredensborgklinikken",
+        "address": "Moloveien 20",
+        "postalCode": "8003",
+        "city": "BODØ",
+        "phone": "75 54 99 49",
+        "url": null,
+        "wheelchairAccessible": false,
+        "groupPractice": true
+      },
+      "agreementSince": null,
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [
+        {
+          "label": "Mann (38)",
+          "fromDate": "2025-01-01T00:00:00",
+          "toDate": "2025-12-31T00:00:00",
+          "percentage": 100,
+          "age": 38,
+          "gender": "male"
+        }
+      ],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "100005824",
+      "totalSlots": 530,
+      "openSlots": 100,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": null,
+      "clinic": {
+        "id": 1820,
+        "name": "Havna Legesenter",
+        "address": "Moloveien 20",
+        "postalCode": "8003",
+        "city": "BODØ",
+        "phone": "75 55 40 00",
+        "url": "http://havna.bodo.kommune.no/",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": null,
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [
+        {
+          "label": "Mann (38)",
+          "fromDate": "2024-09-01T00:00:00",
+          "toDate": "2025-08-11T00:00:00",
+          "percentage": 100,
+          "age": 38,
+          "gender": "male"
+        }
+      ],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "100000146",
+      "totalSlots": 1050,
+      "openSlots": 5,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (37)",
+        "authorizedYear": 2014,
+        "isSami": false,
+        "age": 37,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1829,
+        "name": "Leger i Nord",
+        "address": "City Nord, Stormyra 20",
+        "postalCode": "8008",
+        "city": "BODØ",
+        "phone": "75 55 06 00",
+        "url": "http://helsenorge.no",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2016-09-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "100005977",
+      "totalSlots": 600,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 2,
+      "doctor": {
+        "label": "Kvinne (44)",
+        "authorizedYear": 2014,
+        "isSami": false,
+        "age": 44,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 100000253,
+        "name": "Solparken Legesenter",
+        "address": "Havnegata 9",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 55 54 10",
+        "url": "https://bodo.kommune.no/solparken-legesenter/",
+        "wheelchairAccessible": false,
+        "groupPractice": false
+      },
+      "agreementSince": "2024-11-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [
+        {
+          "label": "Kvinne (44)",
+          "fromDate": "2025-04-02T00:00:00",
+          "toDate": "2025-04-30T00:00:00",
+          "percentage": 20,
+          "age": 44,
+          "gender": "female"
+        }
+      ],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100003152",
+      "totalSlots": 840,
+      "openSlots": 7,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Kvinne (35)",
+        "authorizedYear": 2016,
+        "isSami": false,
+        "age": 35,
+        "gender": "female"
+      },
+      "clinic": {
+        "id": 1815,
+        "name": "Rønvik Legesenter",
+        "address": "Fjellveien 1",
+        "postalCode": "8011",
+        "city": "BODØ",
+        "phone": "75 55 61 10",
+        "url": "http://ronviklegesenter.no",
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2021-11-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "100004011",
+      "totalSlots": 750,
+      "openSlots": 76,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (37)",
+        "authorizedYear": 2017,
+        "isSami": false,
+        "age": 37,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 100000092,
+        "name": "Bodin Legekontor",
+        "address": "Østensenveien 9",
+        "postalCode": "8009",
+        "city": "Bodø",
+        "phone": "75 50 70 40",
+        "url": null,
+        "wheelchairAccessible": true,
+        "groupPractice": true
+      },
+      "agreementSince": "2022-10-03T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "100003005",
+      "totalSlots": 750,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 37,
+      "doctor": {
+        "label": "Mann (33)",
+        "authorizedYear": 2017,
+        "isSami": false,
+        "age": 33,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 100000253,
+        "name": "Solparken Legesenter",
+        "address": "Havnegata 9",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 55 54 10",
+        "url": "https://bodo.kommune.no/solparken-legesenter/",
+        "wheelchairAccessible": false,
+        "groupPractice": false
+      },
+      "agreementSince": "2021-08-10T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    },
+    {
+      "id": "100005895",
+      "totalSlots": 750,
+      "openSlots": 131,
+      "waitingListEnabled": false,
+      "waitingListSize": 0,
+      "doctor": {
+        "label": "Mann (35)",
+        "authorizedYear": 2017,
+        "isSami": false,
+        "age": 35,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 100000253,
+        "name": "Solparken Legesenter",
+        "address": "Havnegata 9",
+        "postalCode": "8006",
+        "city": "BODØ",
+        "phone": "75 55 54 10",
+        "url": "https://bodo.kommune.no/solparken-legesenter/",
+        "wheelchairAccessible": false,
+        "groupPractice": false
+      },
+      "agreementSince": "2024-09-20T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": true,
+      "sharedList": false
+    },
+    {
+      "id": "100005917",
+      "totalSlots": 970,
+      "openSlots": 0,
+      "waitingListEnabled": true,
+      "waitingListSize": 15,
+      "doctor": {
+        "label": "Mann (53)",
+        "authorizedYear": 2003,
+        "isSami": false,
+        "age": 53,
+        "gender": "male"
+      },
+      "clinic": {
+        "id": 1828,
+        "name": "Fredensborgklinikken",
+        "address": "Moloveien 20",
+        "postalCode": "8003",
+        "city": "BODØ",
+        "phone": "75 54 99 49",
+        "url": null,
+        "wheelchairAccessible": false,
+        "groupPractice": true
+      },
+      "agreementSince": "2024-10-01T00:00:00",
+      "agreementUntil": "0001-01-01T00:00:00",
+      "substitutes": [],
+      "selectable": false,
+      "sharedList": false
+    }
+  ]
+}
