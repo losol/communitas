@@ -1,39 +1,30 @@
-################
-# Stage: Build #
-################
+# ---- Stage 1: Build ----
+FROM node:22-slim AS builder
 
-FROM python:3.10-slim AS build
+WORKDIR /usr/src/app
 
-ENV POETRY_VERSION=1.1.13
+COPY package*.json tsconfig.json ./
+RUN npm install
 
-WORKDIR /app
+COPY api-server/ ./api-server/
+RUN npm run build
 
-# Export poetry dependencies to file
-RUN pip install "poetry==$POETRY_VERSION"
-COPY poetry.lock pyproject.toml ./
-RUN python -m venv /app/venv
-RUN poetry export --without-hashes --format requirements.txt --output /app/requirements.txt
+# ---- Stage 2: Production ----
+FROM node:22-slim
 
-#####################
-# Stage: Production #
-#####################
-FROM python:3.10-slim AS prod
+RUN groupadd -r appgroup && useradd -r -g appgroup appuser
 
-ENV PYTHONPATH=/app
+WORKDIR /usr/src/app
 
-WORKDIR /app
+COPY package*.json ./
+RUN npm ci --production
 
-# Copy requirements from build stage, and install them
-COPY --from=build /app/requirements.txt . 
-RUN pip install --upgrade pip
-RUN pip install --no-cache-dir -r requirements.txt
+COPY --from=builder /usr/src/app/dist ./dist
 
-COPY . .
+RUN chown -R appuser:appgroup /usr/src/app
 
-# Create a non-root user to run the web server
-RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
+# switch to non-root user
 USER appuser
 
-# Run server
-EXPOSE ${PORT:-8000}
-CMD gunicorn --bind 0.0.0.0:${PORT:-8000} index:server
+EXPOSE 3111
+CMD ["node", "dist/api-server/index.js"]

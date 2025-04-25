@@ -1,0 +1,21 @@
+{
+  "name": "communitas-data",
+  "version": "0.1.0",
+  "description": "Backend server for norwegian public health data",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env -r ts-node/register apps/api-server/src/index.ts",
+    "build": "tsc",
+    "start": "node dist/apps/api-server/src/index.js"
+  },
+  "author": "Ole Kristian Losvik",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
