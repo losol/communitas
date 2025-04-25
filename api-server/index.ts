@@ -2,7 +2,7 @@ import express, { urlencoded, json } from "express";
 import fs from 'fs/promises';
 import path from 'path';
 
-const port = process.env.PORT || 8000;
+const port = process.env.COMMUNITAS_DATA_PORT ?? process.env.PORT ?? 3000;
 const app = express();
 
 const dataDir = path.join(process.cwd(), 'data');
